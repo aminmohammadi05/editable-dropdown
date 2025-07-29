@@ -134,3 +134,35 @@
 .arrow.open {
   transform: rotate(180deg);
 }
+
+.emoji-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 150px;
+  max-height: 120px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1100;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.emoji-item {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 4px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+
+  &:hover,
+  &.selected {
+    background-color: #6c63ff;
+    color: white;
+  }
+}
