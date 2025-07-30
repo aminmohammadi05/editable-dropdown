@@ -1,0 +1,61 @@
+.dropdown-input {
+  flex: 1 1 120px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  min-width: 60px;
+  background: transparent;
+  padding: 6px 4px;
+  margin: 2px 0;
+  box-sizing: border-box;
+
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  background-color: #6680d8;
+  color: white;
+  border-radius: 12px;
+  padding: 4px 10px;
+  margin: 2px 6px 2px 0;
+  font-size: 14px;
+  user-select: none;
+}
+
+.arrow {
+  border: solid #6680d8;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.3s ease;
+  align-self: center;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrow.open {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.removeBtn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0;
+
+  &:hover {
+    color: #ff6b6b;
+  }
+}

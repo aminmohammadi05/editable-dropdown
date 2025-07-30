@@ -1,6 +1,6 @@
-import styles from "../ReusableDropdown.module.scss";
-import { useDropDown } from "../DropDownContext";
-import DropDownItem from "./DropDownItem";
+import styles from "./DropDownItemsList.module.scss";
+import { useDropDown } from "../../DropDownContext";
+import DropDownItem from "../DropDownItem/DropDownItem";
 
 const DropDownItemsList: React.FC<any> = () => {
   const context = useDropDown();

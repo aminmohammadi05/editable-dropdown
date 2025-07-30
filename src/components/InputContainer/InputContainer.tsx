@@ -1,5 +1,5 @@
-import styles from "../ReusableDropdown.module.scss";
-import { useDropDown } from "../DropDownContext";
+import styles from "./InputContainer.module.scss";
+import { useDropDown } from "../../DropDownContext";
 
 const InputContainer: React.FC<any> = ({ children }) => {
   const context = useDropDown();

@@ -1,0 +1,36 @@
+.dropdown-list-item {
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  user-select: none;
+  font-weight: 500;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background: #6680d8;
+    color: white;
+
+    span.checkmark {
+      color: #7f93d9;
+    }
+  }
+
+  &.selected {
+    background: #f2f4ff;
+    color: #6680d8;
+
+    span.checkmark {
+      color: #7f93d9;
+    }
+  }
+}
+
+.checkmark {
+  font-weight: bold;
+  color: #1890ff;
+  transition: color 0.3s ease;
+}

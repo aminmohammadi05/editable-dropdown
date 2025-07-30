@@ -1,9 +1,9 @@
-import styles from "../ReusableDropdown.module.scss";
-import { useDropDown } from "../DropDownContext";
-import EmptyEmojiList from "./EmptyEmojiList";
-import EmojiItem from "./EmojiItem";
+import styles from "./EmojiDropDown.module.scss";
+import { useDropDown } from "../../DropDownContext";
+import EmptyEmojiList from "../EmptyEmojiList/EmptyEmojiList";
+import EmojiItem from "../EmojiItem/EmojiItem";
 
-const EmojiDropDown: React.FC<any> = ({ children }) => {
+const EmojiDropDown: React.FC<any> = () => {
   const context = useDropDown();
   return (
     <div

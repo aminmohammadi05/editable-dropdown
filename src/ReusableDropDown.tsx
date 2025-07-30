@@ -1,8 +1,8 @@
 import DropdownProps from "./DropDownProps";
 import { DropDownProvider } from "./DropDownContext";
-import DropDownLayout from "./components/DropDownLayout";
-import InputContainer from "./components/InputContainer";
-import Input from "./components/Input";
+import DropDownLayout from "./components/DropDownContainer/DropDownLayout";
+import InputContainer from "./components/InputContainer/InputContainer";
+import Input from "./components/DropDownInput/Input";
 
 const ReusableDropdown: React.FC<DropdownProps> = ({
   initialItems = [],
