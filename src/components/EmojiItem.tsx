@@ -3,7 +3,6 @@ import styles from "../ReusableDropdown.module.scss";
 
 const EmojiItem: React.FC<any> = ({ emoji }) => {
   const context = useDropDown();
-  console.log(emoji);
   return (
     <span
       key={emoji}
